@@ -1,0 +1,9 @@
+[package]
+name = "git"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zstd = { git = "https://github.com/gyscos/zstd-rs", rev = "3a6c7fa76b49928bd4afc6a68ae82fce842df8dd", default-features = false }
